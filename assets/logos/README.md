@@ -1,6 +1,6 @@
 # Logo assets
 
-Source: Google Drive brand folder (BlueMelon Design).
+Source: the shared brand asset folder.
 
 | File | Notes |
 |---|---|
@@ -15,7 +15,7 @@ Primary tones (Forest, Gold, Brick Red, Indigo) *and* the four Preschool tones
 expresses both campuses at once, which is exactly what a whole-school front
 door needs.
 
-## Open issues for BlueMelon
+## Open issues for the brand team
 
 1. **No dedicated master Farmhouse lockup exists.** Only Primary and Preschool
    variants are in Drive. The deck says Farmhouse is "one school with one shared

@@ -5,13 +5,13 @@ Five whole-school homepage concepts for review. Static HTML/CSS, no build step.
 **These are review mockups, not a published site.** All pages carry
 `noindex,nofollow,noarchive` and a blanket-disallow `robots.txt`.
 
-| Concept | Bet | Targets |
-|---|---|---|
-| A — One Journey | Narrative | The pragmatist; the true believer |
-| B — Two Doors | Speed | The refugee; high-intent search |
-| C — Outcomes First | Positioning | The ladder-climber; the curious convert |
-| D — In Their Own Words | Warmth (playful) | The pragmatist; the curious convert |
-| E — A Day Here | Answering the unasked question (playful) | The curious convert |
+| Concept | Bet |
+|---|---|
+| A — One Journey | Narrative — the 3→12 growth arc as the spine of the page |
+| B — Two Doors | Speed — campus routing above the fold |
+| C — Outcomes First | Positioning — what a child becomes, method held back |
+| D — In Their Own Words | Warmth, playful — the children's own phrases |
+| E — A Day Here | Answering the unasked question, playful — a day start to finish |
 
 Open `index.html` to compare all five.
 
@@ -26,4 +26,4 @@ Open `index.html` to compare all five.
 - **No testimonials** — there are no consented parent quotes yet.
 - Fonts are Playfair Display + Source Sans 3, loaded from Google Fonts.
 
-Internal strategy documentation is deliberately excluded from this repository.
+Internal strategy and audience documentation is deliberately excluded from this repository.

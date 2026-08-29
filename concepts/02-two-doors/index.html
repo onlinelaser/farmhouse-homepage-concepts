@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex,nofollow,noarchive">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Farmhouse Montessori — Preschool &amp; Primary, Northern Beaches</title>
+<meta name="description" content="Farmhouse Montessori runs a Preschool at North Balgowlah and a Primary at North Head Sanctuary, Manly. Choose your campus and book a tour.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --forest:#00472c; --gold:#d19b2a; --brick:#822e1a; --indigo:#1d2959;
+  --teal:#8bafac; --vanilla:#f2cb7c; --coral:#edb1a1; --lilac:#b28dad;
+  --eggshell:#ede7d7; --grey:#616d78; --paper:#fdfbf6;
+  --head:"Playfair Display",Georgia,serif; --body:"Source Sans 3",system-ui,sans-serif;
+  --wrap:1240px;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:var(--body);font-weight:300;font-size:1.0625rem;line-height:1.65;color:var(--indigo);background:var(--paper);-webkit-font-smoothing:antialiased}
+h1,h2,h3{font-family:var(--head);font-weight:600;line-height:1.15;margin:0}
+p{margin:0 0 1rem}
+a{color:inherit}
+.wrap{max-width:var(--wrap);margin:0 auto;padding:0 1.5rem}
+.eyebrow{font-size:.75rem;letter-spacing:.16em;text-transform:uppercase;font-weight:600;margin:0 0 1rem}
+.btn{display:inline-block;font-weight:600;font-size:.95rem;padding:.85rem 1.6rem;border-radius:2px;text-decoration:none;transition:.15s}
+.btn-primary{background:var(--forest);color:#fff}
+.btn-primary:hover{background:#00351f}
+.btn-light{background:#fff;color:var(--indigo);align-self:flex-start}
+.btn-light:hover{background:var(--eggshell)}
+.btn-ghost{border:1.5px solid currentColor}
+a:focus-visible,button:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+
+header{background:var(--paper);border-bottom:1px solid rgba(29,41,89,.12);position:sticky;top:0;z-index:50}
+.bar{display:flex;align-items:center;gap:1.5rem;padding:.85rem 1.5rem;max-width:var(--wrap);margin:0 auto}
+.brand{display:flex;align-items:center;gap:.7rem;text-decoration:none;margin-right:auto}
+.brand img{width:38px;height:38px}
+.brand b{font-family:var(--head);font-size:1.15rem;font-weight:600;display:block;line-height:1}
+.brand span{font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;color:var(--grey)}
+nav ul{display:flex;gap:1.45rem;list-style:none;margin:0;padding:0}
+nav a{text-decoration:none;font-size:.92rem;padding:.3rem 0;border-bottom:2px solid transparent}
+nav a:hover{border-bottom-color:var(--gold)}
+.menu-btn{display:none}
+@media(max-width:960px){nav,.bar .btn{display:none}.menu-btn{display:block;background:none;border:1.5px solid var(--indigo);padding:.5rem .9rem;font:inherit;font-size:.9rem}}
+
+/* brand bar above the fork */
+.brandbar{background:var(--indigo);color:#fff;text-align:center;padding:1.6rem 1.5rem}
+.brandbar h1{font-size:clamp(1.5rem,3.4vw,2.3rem);margin-bottom:.4rem}
+.brandbar p{margin:0;color:rgba(255,255,255,.8);font-size:1.02rem}
+
+/* the fork */
+.doors{display:grid;grid-template-columns:1fr 1fr;min-height:min(72vh,640px)}
+@media(max-width:900px){.doors{grid-template-columns:1fr}}
+.door{display:flex;flex-direction:column;justify-content:flex-end;padding:3rem 2.5rem;position:relative;text-decoration:none;transition:.2s}
+.door-pre{background-image:linear-gradient(165deg,rgba(139,175,172,.90) 0%,rgba(237,177,161,.88) 55%,rgba(242,203,124,.90) 100%),url(../../assets/images/hands-blocks.jpg);background-size:cover;background-position:center}
+.door-pri{background-image:linear-gradient(165deg,rgba(0,71,44,.92) 0%,rgba(10,61,40,.90) 55%,rgba(130,46,26,.88) 100%),url(../../assets/images/northhead-coast.jpg);background-size:cover;background-position:center;color:#fff}
+.door:hover{filter:brightness(1.04)}
+.door .age{font-size:.78rem;letter-spacing:.16em;text-transform:uppercase;font-weight:600;margin-bottom:.8rem;display:block}
+.door-pre .age{color:var(--forest)}
+.door-pri .age{color:var(--vanilla)}
+.door h2{font-size:clamp(1.7rem,3vw,2.4rem);margin-bottom:.9rem;max-width:15ch}
+.door p{max-width:38ch;margin-bottom:1.6rem}
+.door-pre p{color:rgba(0,71,44,.9)}
+.door-pri p{color:rgba(255,255,255,.86)}
+.door .where{font-size:.85rem;letter-spacing:.08em;text-transform:uppercase;margin-bottom:1.4rem;opacity:.8}
+.phnote{position:absolute;top:1rem;right:1.25rem;background:rgba(0,0,0,.6);color:#fff;font-size:.6rem;letter-spacing:.12em;text-transform:uppercase;padding:.25rem .5rem;font-weight:600}
+
+/* one farmhouse */
+.one{padding:5rem 0}
+.one .grid{display:grid;grid-template-columns:1fr 1.1fr;gap:3.5rem;align-items:start}
+@media(max-width:860px){.one .grid{grid-template-columns:1fr;gap:2rem}}
+.one h2{font-size:clamp(1.9rem,3.6vw,2.7rem);max-width:14ch}
+.one .eyebrow{color:var(--brick)}
+.one p.big{font-size:1.12rem}
+
+/* journey strip */
+.strip{background-image:linear-gradient(rgba(237,231,215,.94),rgba(237,231,215,.97)),url(../../assets/images/canopy.jpg);background-size:cover;background-position:center;padding:4rem 0}
+.strip h3{font-size:1.35rem;margin-bottom:2rem}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:1.5rem}
+@media(max-width:800px){.steps{grid-template-columns:1fr 1fr}}
+@media(max-width:480px){.steps{grid-template-columns:1fr}}
+.step{border-top:3px solid var(--gold);padding-top:1rem}
+.step:nth-child(1){border-color:var(--teal)}
+.step:nth-child(2){border-color:var(--vanilla)}
+.step:nth-child(3){border-color:var(--gold)}
+.step:nth-child(4){border-color:var(--forest)}
+.step b{font-family:var(--head);font-size:1.6rem;font-weight:600;display:block;color:var(--brick)}
+.step q{font-family:var(--head);font-style:italic;color:var(--forest);display:block;margin:.3rem 0 .6rem;quotes:none}
+.step p{font-size:.93rem;color:var(--grey);margin:0}
+
+/* practical */
+.practical{padding:5rem 0}
+.practical h2{font-size:clamp(1.8rem,3.4vw,2.5rem);margin-bottom:2.5rem}
+.pgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:2rem}
+@media(max-width:860px){.pgrid{grid-template-columns:1fr}}
+.pcard{border:1px solid rgba(29,41,89,.14);padding:1.75rem}
+.pcard h3{font-size:1.25rem;margin-bottom:.7rem}
+.pcard p{font-size:.96rem;color:var(--grey)}
+.tbd{display:inline-block;font-size:.75rem;letter-spacing:.1em;text-transform:uppercase;color:var(--brick);border:1px dashed var(--brick);padding:.25rem .55rem}
+
+footer{background:var(--indigo);color:#fff;padding:3.5rem 0 2rem;font-size:.94rem}
+footer a{color:rgba(255,255,255,.85)}
+.fgrid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:2.5rem}
+@media(max-width:800px){.fgrid{grid-template-columns:1fr}}
+footer h4{font-family:var(--body);font-size:.75rem;letter-spacing:.14em;text-transform:uppercase;color:var(--vanilla);margin:0 0 .9rem}
+footer ul{list-style:none;margin:0;padding:0}
+footer li{margin-bottom:.5rem}
+.rule{border-top:1px solid rgba(255,255,255,.2);margin-top:2.5rem;padding-top:1.5rem;font-size:.85rem;color:rgba(255,255,255,.65);display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+.skip{position:absolute;left:-9999px}
+.skip:focus{left:1rem;top:1rem;background:#fff;padding:.7rem 1rem;z-index:100}
+</style>
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+<header>
+  <div class="bar">
+    <a class="brand" href="#">
+      <img src="../../assets/logos/FARMHOUSE_Shared_Icon.svg" alt="">
+      <span><b>Farmhouse</b><span>Montessori</span></span>
+    </a>
+    <nav aria-label="Main"><ul>
+      <li><a href="#one">Our School</a></li>
+      <li><a href="#doors">Preschool</a></li>
+      <li><a href="#doors">Primary</a></li>
+      <li><a href="#one">Our Approach</a></li>
+      <li><a href="#practical">Enrolment</a></li>
+      <li><a href="#footer">Contact</a></li>
+    </ul></nav>
+    <a class="btn btn-primary" href="#practical">Book a tour</a>
+    <button class="menu-btn" aria-expanded="false">Menu</button>
+  </div>
+</header>
+
+<main id="main">
+<div class="brandbar">
+  <h1>One school. Two campuses.</h1>
+  <p>A genuine Montessori education on the Northern Beaches, for children aged 3 to 12.</p>
+</div>
+
+<section class="doors" id="doors" aria-label="Choose a campus">
+  <a class="door door-pre" href="#practical">
+    <span class="phnote">Placeholder image</span>
+    <span class="age">Preschool · Ages 3–5</span>
+    <h2>A nurturing beginning for curious little learners.</h2>
+    <span class="where">North Balgowlah</span>
+    <p>A warm, unhurried start where children settle quickly, play with purpose, and learn to do things for themselves.</p>
+    <span class="btn btn-light">Book a Preschool tour →</span>
+  </a>
+  <a class="door door-pri" href="#practical">
+    <span class="phnote">Placeholder image</span>
+    <span class="age">Primary · Ages 6–12</span>
+    <h2>Growing capable, confident and increasingly independent learners.</h2>
+    <span class="where">North Head Sanctuary, Manly</span>
+    <p>An independent primary in a nature sanctuary, raising curious children who are ready for a world that keeps changing.</p>
+    <span class="btn btn-light">Book a Primary tour →</span>
+  </a>
+</section>
+
+<section class="one" id="one">
+  <div class="wrap grid">
+    <div>
+      <p class="eyebrow">One Farmhouse</p>
+      <h2>Two campuses. One continuous journey.</h2>
+    </div>
+    <div>
+      <p class="big">Farmhouse brings together Preschool and Primary through a shared philosophy, a strong sense of community, and a belief in nurturing each child's curiosity, independence and confidence.</p>
+      <p>Each campus is shaped around the developmental needs of the children within it — creating two experiences with their own character, while remaining part of one continuous Farmhouse journey.</p>
+      <p>We are a small, not-for-profit community school. Every child is known individually, and treated that way.</p>
+    </div>
+  </div>
+</section>
+
+<section class="strip">
+  <div class="wrap">
+    <h3>Growing independence, from three to twelve.</h3>
+    <div class="steps">
+      <div class="step"><b>Age 3</b><q>“I can do it myself.”</q><p>Chooses, carries, pours and puts things back. Stays with something difficult longer than you might expect.</p></div>
+      <div class="step"><b>Age 5</b><q>“I can do it myself.”</q><p>Reads, writes and manages routines with growing confidence. Uses real tools with care. Asks why.</p></div>
+      <div class="step"><b>Age 9</b><q>“I can work things out.”</q><p>Plans work, collaborates and follows through. Can change their mind when another idea is stronger.</p></div>
+      <div class="step"><b>Age 12</b><q>“I can take ownership.”</q><p>Takes an idea from question to finished project. Knows what they don't know — and how to find out.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="practical" id="practical">
+  <div class="wrap">
+    <p class="eyebrow" style="color:var(--brick)">Getting started</p>
+    <h2>Three steps, and we'll walk you through each one.</h2>
+    <div class="pgrid">
+      <div class="pcard">
+        <h3>1. Book a tour</h3>
+        <p>The best way to understand Farmhouse is to see a classroom in action. Tours run regularly at both campuses, and private tours are available on request.</p>
+        <p><span class="tbd">Days &amp; times — to be confirmed</span></p>
+      </div>
+      <div class="pcard">
+        <h3>2. Visit and apply</h3>
+        <p>After your tour you'll be invited to apply. Parents are invited to observe, and we'll arrange a visit for your child suited to the classroom they'd be joining.</p>
+      </div>
+      <div class="pcard">
+        <h3>3. Settling in</h3>
+        <p>Once a place is offered we'll walk you and your child through settling in, so the first day feels like coming back rather than starting fresh.</p>
+      </div>
+    </div>
+    <p style="margin-top:2.5rem"><a class="btn btn-primary" href="#">Book a tour</a> <a class="btn btn-ghost" href="#">Talk to us today</a></p>
+    <p style="color:var(--grey);font-size:.95rem">Looking mid-year, or worried your child isn't thriving where they are? Call us — we answer quickly, and children join us mid-year more often than you'd think.</p>
+  </div>
+</section>
+</main>
+
+<footer id="footer">
+  <div class="wrap">
+    <div class="fgrid">
+      <div>
+        <a class="brand" href="#" style="margin-bottom:1rem">
+          <img src="../../assets/logos/FARMHOUSE_Shared_Icon.svg" alt="">
+          <span><b style="color:#fff">Farmhouse</b><span style="color:var(--vanilla)">Montessori</span></span>
+        </a>
+        <p style="max-width:34ch;color:rgba(255,255,255,.78)">A not-for-profit community school providing a genuine Montessori education for children aged 3 to 12, across two Northern Beaches campuses.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="#one">Our approach</a></li>
+          <li><a href="#doors">Preschool</a></li>
+          <li><a href="#doors">Primary</a></li>
+          <li><a href="#practical">Tours &amp; enrolment</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Our campuses</h4>
+        <ul>
+          <li>Preschool — North Balgowlah</li>
+          <li>Primary — Building 2, North Head Sanctuary, Manly NSW 2095</li>
+        </ul>
+      </div>
+    </div>
+    <div class="rule">
+      <span>© 2026 Farmhouse Montessori. Concept B — “Two Doors”.</span>
+      <span>Review mockup · not for publication</span>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex,nofollow,noarchive">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Farmhouse Montessori — What a day here actually looks like</title>
+<meta name="description" content="A jargon-free walk through an ordinary day at Farmhouse Montessori, Northern Beaches. Two campuses, ages 3 to 12. Then come and see a real one.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Source+Sans+3:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --forest:#00472c; --gold:#d19b2a; --brick:#822e1a; --indigo:#1d2959;
+  --teal:#8bafac; --vanilla:#f2cb7c; --coral:#edb1a1; --lilac:#b28dad;
+  --eggshell:#ede7d7; --grey:#616d78; --paper:#fffdf7;
+  --head:"Playfair Display",Georgia,serif; --body:"Source Sans 3",system-ui,sans-serif;
+  --wrap:1120px;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:var(--body);font-weight:300;font-size:1.0625rem;line-height:1.65;color:var(--indigo);background:var(--paper);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+h1,h2,h3{font-family:var(--head);font-weight:700;line-height:1.1;margin:0}
+p{margin:0 0 1rem}
+a{color:inherit}
+.wrap{max-width:var(--wrap);margin:0 auto;padding:0 1.5rem}
+.btn{display:inline-block;font-weight:700;font-size:.98rem;padding:.9rem 1.8rem;border-radius:100px;text-decoration:none;transition:.18s}
+.btn-primary{background:var(--forest);color:#fff}
+.btn-primary:hover{transform:translateY(-2px)}
+.btn-ghost{border:2px solid currentColor}
+.btn-ghost:hover{transform:translateY(-2px)}
+a:focus-visible,button:focus-visible{outline:3px solid var(--brick);outline-offset:3px}
+.eyebrow{font-size:.75rem;letter-spacing:.16em;text-transform:uppercase;font-weight:700;color:var(--brick);margin:0 0 1rem}
+
+header{position:sticky;top:0;z-index:60;background:var(--paper);border-bottom:3px solid var(--gold)}
+.bar{display:flex;align-items:center;gap:1.4rem;padding:.8rem 1.5rem;max-width:var(--wrap);margin:0 auto}
+.brand{display:flex;align-items:center;gap:.7rem;text-decoration:none;margin-right:auto}
+.brand img{width:40px;height:40px}
+.brand b{font-family:var(--head);font-size:1.2rem;display:block;line-height:1}
+.brand span{font-size:.66rem;letter-spacing:.14em;text-transform:uppercase;color:var(--grey)}
+nav ul{display:flex;gap:1.3rem;list-style:none;margin:0;padding:0}
+nav a{text-decoration:none;font-size:.92rem;font-weight:400;padding:.2rem .1rem;border-bottom:3px solid transparent}
+nav a:hover{border-color:var(--gold)}
+.menu-btn{display:none}
+@media(max-width:980px){nav,.bar .btn{display:none}.menu-btn{display:block;background:none;border:2px solid var(--forest);border-radius:100px;padding:.5rem 1rem;font:inherit;font-weight:600}}
+
+/* hero */
+.hero{background-image:linear-gradient(110deg,rgba(242,203,124,.95) 0%,rgba(237,177,161,.90) 55%,rgba(139,175,172,.85) 100%),url(../../assets/images/hands-materials.jpg);background-size:cover;background-position:center;padding:4.5rem 0 5rem;position:relative;overflow:hidden}
+.hero h1{font-size:clamp(2.5rem,6.4vw,4.6rem);max-width:15ch;margin-bottom:1.3rem}
+.hero h1 em{font-style:italic;color:var(--brick)}
+.hero .lede{max-width:44ch;font-size:1.14rem;margin-bottom:2rem}
+.hero-cta{display:flex;gap:.8rem;flex-wrap:wrap}
+.tagph{position:absolute;top:1rem;right:1.25rem;background:rgba(0,0,0,.6);color:#fff;font-size:.6rem;letter-spacing:.12em;text-transform:uppercase;padding:.25rem .5rem;font-weight:700}
+.clock{display:inline-flex;align-items:center;gap:.5rem;background:var(--indigo);color:#fff;border-radius:100px;padding:.4rem 1rem;font-size:.8rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;margin-bottom:1.2rem}
+
+/* caveat */
+.caveat{background:var(--indigo);color:#fff;padding:1.1rem 0;font-size:.93rem}
+.caveat .wrap{display:flex;gap:.9rem;align-items:flex-start}
+.caveat b{color:var(--vanilla)}
+
+/* the day */
+.day{padding:4.5rem 0 2rem}
+.day h2{font-size:clamp(2rem,4.4vw,3rem);max-width:16ch;margin-bottom:1rem}
+.day .intro{max-width:54ch;color:var(--grey);margin-bottom:3rem}
+.slot{display:grid;grid-template-columns:130px 1fr;gap:2rem;align-items:start;padding-bottom:2.6rem;position:relative}
+@media(max-width:760px){.slot{grid-template-columns:1fr;gap:.8rem}}
+.slot .time{font-family:var(--head);font-size:1.9rem;font-weight:700;color:var(--brick);text-align:right;padding-top:.9rem}
+@media(max-width:760px){.slot .time{text-align:left;padding-top:0}}
+.slot .body{border-left:4px solid var(--eggshell);padding:.9rem 0 0 2rem;position:relative}
+@media(max-width:760px){.slot .body{border-left:none;padding-left:0}}
+.slot .body:before{content:"";position:absolute;left:-11px;top:1.35rem;width:18px;height:18px;border-radius:50%;background:var(--gold);border:4px solid var(--paper)}
+@media(max-width:760px){.slot .body:before{display:none}}
+.slot:nth-child(2) .body:before{background:var(--teal)}
+.slot:nth-child(3) .body:before{background:var(--vanilla)}
+.slot:nth-child(4) .body:before{background:var(--coral)}
+.slot:nth-child(5) .body:before{background:var(--lilac)}
+.slot:nth-child(6) .body:before{background:var(--forest)}
+.slot h3{font-size:1.5rem;margin-bottom:.5rem}
+.slot p{max-width:52ch;margin-bottom:.8rem}
+.slot .pic{border-radius:20px;aspect-ratio:16/7;background-size:cover;background-position:center;margin-top:1rem;position:relative;border:3px solid var(--indigo)}
+.pic-a{background-image:linear-gradient(200deg,rgba(139,175,172,.30),rgba(242,203,124,.30)),url(../../assets/images/hands-blocks.jpg)}
+.pic-b{background-image:linear-gradient(200deg,rgba(0,71,44,.35),rgba(139,175,172,.25)),url(../../assets/images/forest-path.jpg)}
+.pic-c{background-image:linear-gradient(200deg,rgba(237,177,161,.32),rgba(178,141,173,.30)),url(../../assets/images/painting.jpg)}
+.chip{display:inline-block;background:var(--eggshell);border-radius:100px;padding:.25rem .8rem;font-size:.8rem;font-weight:600;margin:0 .3rem .4rem 0}
+
+/* campuses differ */
+.differ{background:var(--eggshell);padding:5rem 0}
+.differ h2{font-size:clamp(1.9rem,3.8vw,2.6rem);max-width:18ch;margin-bottom:2.4rem}
+.dgrid{display:grid;grid-template-columns:1fr 1fr;gap:2rem}
+@media(max-width:860px){.dgrid{grid-template-columns:1fr}}
+.d{background:#fff;border:3px solid var(--indigo);border-radius:24px;padding:2rem}
+.d .pill{display:inline-block;font-size:.78rem;font-weight:700;border-radius:100px;padding:.3rem .85rem;margin-bottom:1rem}
+.d:nth-child(1) .pill{background:var(--vanilla)}
+.d:nth-child(2) .pill{background:var(--teal)}
+.d h3{font-size:1.5rem;margin-bottom:.3rem}
+.d .loc{font-size:.78rem;letter-spacing:.13em;text-transform:uppercase;color:var(--grey);margin-bottom:1rem}
+.d .q{font-family:var(--head);font-style:italic;font-size:1.05rem;color:var(--brick);border-left:3px solid var(--gold);padding-left:.9rem;margin:1.2rem 0}
+
+/* tour */
+.tour{background:var(--forest);color:#fff;padding:5rem 0;text-align:center}
+.tour h2{font-size:clamp(2.1rem,5vw,3.3rem);max-width:18ch;margin:0 auto 1rem}
+.tour p{max-width:48ch;margin:0 auto 2rem;color:rgba(255,255,255,.85)}
+.tour .btn-primary{background:var(--gold);color:var(--indigo)}
+.tbd{display:inline-block;font-size:.76rem;letter-spacing:.1em;text-transform:uppercase;font-weight:700;color:var(--vanilla);border:2px dashed var(--vanilla);border-radius:100px;padding:.35rem .85rem;margin-top:1.4rem}
+
+footer{background:var(--indigo);color:#fff;padding:3.5rem 0 2rem;font-size:.94rem}
+footer a{color:rgba(255,255,255,.85)}
+.fgrid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:2.5rem}
+@media(max-width:800px){.fgrid{grid-template-columns:1fr}}
+footer h4{font-family:var(--body);font-size:.75rem;letter-spacing:.14em;text-transform:uppercase;color:var(--vanilla);margin:0 0 .9rem}
+footer ul{list-style:none;margin:0;padding:0}
+footer li{margin-bottom:.5rem}
+.rule{border-top:1px solid rgba(255,255,255,.2);margin-top:2.5rem;padding-top:1.5rem;font-size:.85rem;color:rgba(255,255,255,.65);display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+.skip{position:absolute;left:-9999px}
+.skip:focus{left:1rem;top:1rem;background:#fff;padding:.7rem 1rem;z-index:100}
+</style>
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+<header>
+  <div class="bar">
+    <a class="brand" href="#">
+      <img src="../../assets/logos/FARMHOUSE_Shared_Icon.svg" alt="">
+      <span><b>Farmhouse</b><span>Montessori</span></span>
+    </a>
+    <nav aria-label="Main"><ul>
+      <li><a href="#day">Our School</a></li>
+      <li><a href="#differ">Preschool</a></li>
+      <li><a href="#differ">Primary</a></li>
+      <li><a href="#day">Our Approach</a></li>
+      <li><a href="#tour">Enrolment</a></li>
+      <li><a href="#footer">Contact</a></li>
+    </ul></nav>
+    <a class="btn btn-primary" href="#tour">Book a tour</a>
+    <button class="menu-btn" aria-expanded="false">Menu</button>
+  </div>
+</header>
+
+<main id="main">
+<section class="hero">
+  <span class="tagph">Placeholder image</span>
+  <div class="wrap">
+    <span class="clock">A completely ordinary Tuesday</span>
+    <h1>So what <em>actually</em> happens all day?</h1>
+    <p class="lede">Fair question. Most school websites won't tell you. Here is a Farmhouse day, start to finish, with no jargon in it.</p>
+    <div class="hero-cta">
+      <a class="btn btn-primary" href="#day">Walk me through it</a>
+      <a class="btn btn-ghost" href="#tour">Skip ahead — book a tour</a>
+    </div>
+  </div>
+</section>
+
+<div class="caveat">
+  <div class="wrap"><span aria-hidden="true">⚠</span><p style="margin:0"><b>Reviewer note:</b> the daily structure below is indicative only. The strategy deck does not specify a timetable, so these times and routines must be confirmed with the school before this page goes anywhere near a parent.</p></div>
+</div>
+
+<section class="day" id="day">
+  <div class="wrap">
+    <p class="eyebrow">One day, start to finish</p>
+    <h2>No bells. No rows. Quite a lot of concentration.</h2>
+    <p class="intro">It can look relaxed from the doorway. The structure is there — it's just built into the room rather than announced from the front of it.</p>
+
+    <div class="slot">
+      <div class="time">Arrival</div>
+      <div class="body">
+        <h3>Children put their own things away.</h3>
+        <p>Bags, hats, drink bottles, shoes. It sounds trivial. It is the first piece of the whole thing — the day starts with something they manage themselves.</p>
+        <span class="chip">Independence</span><span class="chip">Belonging</span>
+      </div>
+    </div>
+
+    <div class="slot">
+      <div class="time">Morning</div>
+      <div class="body">
+        <h3>The long work session.</h3>
+        <p>The heart of the day. Children choose work from a thoughtfully prepared environment and stay with it — often far longer than you'd expect. A guide moves between them, stretching a child when they're ready rather than when the timetable says so.</p>
+        <div class="pic pic-a"><span class="tagph">Placeholder image</span></div>
+      </div>
+    </div>
+
+    <div class="slot">
+      <div class="time">Late morning</div>
+      <div class="body">
+        <h3>Outside, properly outside.</h3>
+        <p>At the Primary campus that means North Head Sanctuary — bushland, headland and ocean air as part of an ordinary day. Exploring is something children do here, not something they read about.</p>
+        <div class="pic pic-b"><span class="tagph">Placeholder image</span></div>
+      </div>
+    </div>
+
+    <div class="slot">
+      <div class="time">Midday</div>
+      <div class="body">
+        <h3>Lunch, laid and cleared by the children.</h3>
+        <p>Pouring, serving, wiping down, putting away. Practical work isn't a break from the learning — for a three-year-old it <em>is</em> the learning, and for a nine-year-old it's how a community gets looked after.</p>
+        <span class="chip">Care of the environment</span><span class="chip">Responsibility</span>
+      </div>
+    </div>
+
+    <div class="slot">
+      <div class="time">Afternoon</div>
+      <div class="body">
+        <h3>Making, questioning, following an interest.</h3>
+        <p>Creative and hands-on work, often stretching across several days. This is where an older child takes something from a question to a finished thing they're prepared to stand behind.</p>
+        <div class="pic pic-c"><span class="tagph">Placeholder image</span></div>
+      </div>
+    </div>
+
+    <div class="slot">
+      <div class="time">Home time</div>
+      <div class="body">
+        <h3>“What did you do today?” “Nothing.”</h3>
+        <p>You will still get this answer. You'll just start noticing other things instead — the shoes going on unprompted, the pouring without spilling, the argument they can suddenly explain both sides of.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="differ" id="differ">
+  <div class="wrap">
+    <p class="eyebrow">Same school, different days</p>
+    <h2>A day at three doesn't look like a day at eleven.</h2>
+    <div class="dgrid">
+      <div class="d">
+        <span class="pill">Preschool · Ages 3–5</span>
+        <h3>A nurturing beginning</h3>
+        <p class="loc">North Balgowlah</p>
+        <p>Shorter, gentler, and built around settling in. Purposeful play, strong relationships, and the first taste of doing things without help.</p>
+        <p class="q">“Will my child be happy and safe here?”</p>
+        <a class="btn btn-ghost" href="#tour">Book a Preschool tour</a>
+      </div>
+      <div class="d">
+        <span class="pill">Primary · Ages 6–12</span>
+        <h3>A much bigger world</h3>
+        <p class="loc">North Head Sanctuary, Manly</p>
+        <p>Longer work sessions, deeper exploration, real projects, and increasing ownership of how the day gets used.</p>
+        <p class="q">“Will my child be ready for what comes next?”</p>
+        <a class="btn btn-ghost" href="#tour">Book a Primary tour</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="tour" id="tour">
+  <div class="wrap">
+    <p class="eyebrow" style="color:var(--vanilla)">The only real way to know</p>
+    <h2>Come and watch a real one.</h2>
+    <p>We've described it as honestly as we can, but a morning in the room settles it in a way a webpage can't. Tours run regularly at both campuses.</p>
+    <a class="btn btn-primary" href="#">Book a campus tour</a>
+    <a class="btn btn-ghost" href="#">Ask us a question first</a>
+    <div><span class="tbd">Tour days &amp; times — to be confirmed</span></div>
+  </div>
+</section>
+</main>
+
+<footer id="footer">
+  <div class="wrap">
+    <div class="fgrid">
+      <div>
+        <a class="brand" href="#" style="margin-bottom:1rem">
+          <img src="../../assets/logos/FARMHOUSE_Shared_Icon.svg" alt="">
+          <span><b style="color:#fff">Farmhouse</b><span style="color:var(--vanilla)">Montessori</span></span>
+        </a>
+        <p style="max-width:34ch;color:rgba(255,255,255,.78)">A not-for-profit community school providing a genuine Montessori education for children aged 3 to 12, across two Northern Beaches campuses.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="#day">A day here</a></li>
+          <li><a href="#differ">Preschool</a></li>
+          <li><a href="#differ">Primary</a></li>
+          <li><a href="#tour">Tours &amp; enrolment</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Our campuses</h4>
+        <ul>
+          <li>Preschool — North Balgowlah</li>
+          <li>Primary — Building 2, North Head Sanctuary, Manly NSW 2095</li>
+        </ul>
+      </div>
+    </div>
+    <div class="rule">
+      <span>© 2026 Farmhouse Montessori. Concept E — “A Day Here”.</span>
+      <span>Review mockup · not for publication</span>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

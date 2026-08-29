@@ -1,0 +1,7 @@
+# Internal strategy documentation — must not be published
+docs/
+
+# Derived output (PDFs, zip) — regenerate locally
+share/
+
+.DS_Store
